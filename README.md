@@ -29,24 +29,24 @@ An Api developed to train queue skills.
   ```
 
 ## How to run:
-  1 - clone repo
-  2 - yarn install
-  3 - Create an account and a mailer in mailtrap.io
-  4 - set this variables in .env:
-    ```
-    MAIL_HOST=
-    MAIL_PORT=
-    MAIL_USER=
-    MAIL_PASS=
-    ```
-  5 - pull docker redis image and create an instance
-    > docker run --name redis -p 6379:6379 -d -t redis:alpine
-  6 - set this variables:
-    ```
+  1 - clone repo; <br />
+  2 - yarn install; <br />
+  3 - Create an account and a mailer in mailtrap.io; <br />
+  4 - set this variables in .env: <br />
+  ```
+      MAIL_HOST= 
+      MAIL_PORT= 
+      MAIL_USER= 
+      MAIL_PASS= 
+   ```
+  5 - pull docker redis image and create an instance; <br />
+    > docker run --name redis -p 6379:6379 -d -t redis:alpine <br />
+  6 - set this variables: <br />
+   ```
     REDIS_HOST=
     REDIS_PORT=
-    ```
-  7 - yarn dev
+   ```
+  7 - yarn dev <br />
   
   
  
